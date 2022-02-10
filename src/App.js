@@ -7,7 +7,7 @@ function App() {
 
   const onUserHundler = (uName, uAge) => {
     setUserList((prevState) => {
-      return [ ...prevState, {name: uName, age: uAge, id: Math.random().tiSlting}]
+      return [ ...prevState, {name: uName, age: uAge, id: Math.random().toString()}]
     })
   }
   return (
